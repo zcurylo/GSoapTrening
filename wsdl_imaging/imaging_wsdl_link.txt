@@ -1,0 +1,1 @@
+http://www.onvif.org/onvif/ver20/imaging/wsdl/imaging.wsdl
