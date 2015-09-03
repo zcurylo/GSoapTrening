@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+  xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns7="http://www.w3.org/2005/08/addressing"
+  xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
+  xmlns:ns4="http://www.w3.org/2004/08/xop/include"
+  xmlns:ns2="http://www.onvif.org/ver10/schema"
+  xmlns:ns5="http://docs.oasis-open.org/wsrf/bf-2"
+  xmlns:ns3="http://docs.oasis-open.org/wsn/b-2"
+  xmlns:ns6="http://docs.oasis-open.org/wsn/t-1"
+  xmlns:ns1="http://www.onvif.org/ver10/media/wsdl">
+ <SOAP-ENV:Body>
+  <ns1:GetProfilesResponse>
+   <ns1:Profiles token="" fixed="false">
+    <ns2:Name></ns2:Name>
+    <ns2:VideoSourceConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:SourceToken></ns2:SourceToken>
+     <ns2:Bounds x="0" y="0" width="0" height="0"></ns2:Bounds>
+
+
+     <ns2:Extension>
+      <ns2:Rotate>
+       <ns2:Mode>OFF</ns2:Mode>
+       <ns2:Degree>0</ns2:Degree>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:Rotate>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+    </ns2:VideoSourceConfiguration>
+    <ns2:AudioSourceConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:SourceToken></ns2:SourceToken>
+
+
+    </ns2:AudioSourceConfiguration>
+    <ns2:VideoEncoderConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:Encoding>JPEG</ns2:Encoding>
+     <ns2:Resolution>
+      <ns2:Width>0</ns2:Width>
+      <ns2:Height>0</ns2:Height>
+      <!-- extensibility element(s) -->
+
+     </ns2:Resolution>
+     <ns2:Quality>0.0</ns2:Quality>
+     <ns2:RateControl>
+      <ns2:FrameRateLimit>0</ns2:FrameRateLimit>
+      <ns2:EncodingInterval>0</ns2:EncodingInterval>
+      <ns2:BitrateLimit>0</ns2:BitrateLimit>
+      <!-- extensibility element(s) -->
+
+     </ns2:RateControl>
+     <ns2:MPEG4>
+      <ns2:GovLength>0</ns2:GovLength>
+      <ns2:Mpeg4Profile>SP</ns2:Mpeg4Profile>
+      <!-- extensibility element(s) -->
+
+     </ns2:MPEG4>
+     <ns2:H264>
+      <ns2:GovLength>0</ns2:GovLength>
+      <ns2:H264Profile>Baseline</ns2:H264Profile>
+      <!-- extensibility element(s) -->
+
+     </ns2:H264>
+     <ns2:Multicast>
+      <ns2:Address>
+       <ns2:Type>IPv4</ns2:Type>
+       <ns2:IPv4Address></ns2:IPv4Address>
+       <ns2:IPv6Address></ns2:IPv6Address>
+       <!-- extensibility element(s) -->
+
+      </ns2:Address>
+      <ns2:Port>0</ns2:Port>
+      <ns2:TTL>0</ns2:TTL>
+      <ns2:AutoStart>false</ns2:AutoStart>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Multicast>
+     <ns2:SessionTimeout></ns2:SessionTimeout>
+
+
+    </ns2:VideoEncoderConfiguration>
+    <ns2:AudioEncoderConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:Encoding>G711</ns2:Encoding>
+     <ns2:Bitrate>0</ns2:Bitrate>
+     <ns2:SampleRate>0</ns2:SampleRate>
+     <ns2:Multicast>
+      <ns2:Address>
+       <ns2:Type>IPv4</ns2:Type>
+       <ns2:IPv4Address></ns2:IPv4Address>
+       <ns2:IPv6Address></ns2:IPv6Address>
+       <!-- extensibility element(s) -->
+
+      </ns2:Address>
+      <ns2:Port>0</ns2:Port>
+      <ns2:TTL>0</ns2:TTL>
+      <ns2:AutoStart>false</ns2:AutoStart>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Multicast>
+     <ns2:SessionTimeout></ns2:SessionTimeout>
+
+
+    </ns2:AudioEncoderConfiguration>
+    <ns2:VideoAnalyticsConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:AnalyticsEngineConfiguration>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:AnalyticsEngineConfiguration>
+     <ns2:RuleEngineConfiguration>
+      <ns2:Rule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:Rule>
+      <ns2:Rule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:Rule>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:RuleEngineConfiguration>
+
+
+    </ns2:VideoAnalyticsConfiguration>
+    <ns2:PTZConfiguration token="" MoveRamp="0" PresetRamp="0" PresetTourRamp="0">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:NodeToken></ns2:NodeToken>
+     <ns2:DefaultAbsolutePantTiltPositionSpace></ns2:DefaultAbsolutePantTiltPositionSpace>
+     <ns2:DefaultAbsoluteZoomPositionSpace></ns2:DefaultAbsoluteZoomPositionSpace>
+     <ns2:DefaultRelativePanTiltTranslationSpace></ns2:DefaultRelativePanTiltTranslationSpace>
+     <ns2:DefaultRelativeZoomTranslationSpace></ns2:DefaultRelativeZoomTranslationSpace>
+     <ns2:DefaultContinuousPanTiltVelocitySpace></ns2:DefaultContinuousPanTiltVelocitySpace>
+     <ns2:DefaultContinuousZoomVelocitySpace></ns2:DefaultContinuousZoomVelocitySpace>
+     <ns2:DefaultPTZSpeed>
+      <ns2:PanTilt x="0.0" y="0.0" space=""></ns2:PanTilt>
+      <ns2:Zoom x="0.0" space=""></ns2:Zoom>
+      <!-- extensibility element(s) -->
+
+     </ns2:DefaultPTZSpeed>
+     <ns2:DefaultPTZTimeout></ns2:DefaultPTZTimeout>
+     <ns2:PanTiltLimits>
+      <ns2:Range>
+       <ns2:URI></ns2:URI>
+       <ns2:XRange>
+        <ns2:Min>0.0</ns2:Min>
+        <ns2:Max>0.0</ns2:Max>
+        <!-- extensibility element(s) -->
+
+       </ns2:XRange>
+       <ns2:YRange>
+        <ns2:Min>0.0</ns2:Min>
+        <ns2:Max>0.0</ns2:Max>
+        <!-- extensibility element(s) -->
+
+       </ns2:YRange>
+       <!-- extensibility element(s) -->
+
+      </ns2:Range>
+      <!-- extensibility element(s) -->
+
+     </ns2:PanTiltLimits>
+     <ns2:ZoomLimits>
+      <ns2:Range>
+       <ns2:URI></ns2:URI>
+       <ns2:XRange>
+        <ns2:Min>0.0</ns2:Min>
+        <ns2:Max>0.0</ns2:Max>
+        <!-- extensibility element(s) -->
+
+       </ns2:XRange>
+       <!-- extensibility element(s) -->
+
+      </ns2:Range>
+      <!-- extensibility element(s) -->
+
+     </ns2:ZoomLimits>
+     <ns2:Extension>
+
+
+      <ns2:PTControlDirection>
+       <ns2:EFlip>
+        <ns2:Mode>OFF</ns2:Mode>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:EFlip>
+       <ns2:Reverse>
+        <ns2:Mode>OFF</ns2:Mode>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Reverse>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:PTControlDirection>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+    </ns2:PTZConfiguration>
+    <ns2:MetadataConfiguration token="" CompressionType="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:PTZStatus>
+      <ns2:Status>false</ns2:Status>
+      <ns2:Position>false</ns2:Position>
+      <!-- extensibility element(s) -->
+
+     </ns2:PTZStatus>
+     <ns2:Events>
+      <ns2:Filter>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Filter>
+      <ns2:SubscriptionPolicy>
+
+
+      </ns2:SubscriptionPolicy>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Events>
+     <ns2:Analytics>false</ns2:Analytics>
+     <ns2:Multicast>
+      <ns2:Address>
+       <ns2:Type>IPv4</ns2:Type>
+       <ns2:IPv4Address></ns2:IPv4Address>
+       <ns2:IPv6Address></ns2:IPv6Address>
+       <!-- extensibility element(s) -->
+
+      </ns2:Address>
+      <ns2:Port>0</ns2:Port>
+      <ns2:TTL>0</ns2:TTL>
+      <ns2:AutoStart>false</ns2:AutoStart>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Multicast>
+     <ns2:SessionTimeout></ns2:SessionTimeout>
+
+
+     <ns2:AnalyticsEngineConfiguration>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:AnalyticsEngineConfiguration>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+    </ns2:MetadataConfiguration>
+    <ns2:Extension>
+
+
+     <ns2:AudioOutputConfiguration token="">
+      <ns2:Name></ns2:Name>
+      <ns2:UseCount>0</ns2:UseCount>
+      <ns2:OutputToken></ns2:OutputToken>
+      <ns2:SendPrimacy></ns2:SendPrimacy>
+      <ns2:OutputLevel>0</ns2:OutputLevel>
+
+
+     </ns2:AudioOutputConfiguration>
+     <ns2:AudioDecoderConfiguration token="">
+      <ns2:Name></ns2:Name>
+      <ns2:UseCount>0</ns2:UseCount>
+
+
+     </ns2:AudioDecoderConfiguration>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+     <!-- extensibility element(s) -->
+
+    </ns2:Extension>
+    <!-- extensibility element(s) -->
+
+   </ns1:Profiles>
+   <ns1:Profiles token="" fixed="false">
+    <ns2:Name></ns2:Name>
+    <ns2:VideoSourceConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:SourceToken></ns2:SourceToken>
+     <ns2:Bounds x="0" y="0" width="0" height="0"></ns2:Bounds>
+
+
+     <ns2:Extension>
+      <ns2:Rotate>
+       <ns2:Mode>OFF</ns2:Mode>
+       <ns2:Degree>0</ns2:Degree>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:Rotate>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+    </ns2:VideoSourceConfiguration>
+    <ns2:AudioSourceConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:SourceToken></ns2:SourceToken>
+
+
+    </ns2:AudioSourceConfiguration>
+    <ns2:VideoEncoderConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:Encoding>JPEG</ns2:Encoding>
+     <ns2:Resolution>
+      <ns2:Width>0</ns2:Width>
+      <ns2:Height>0</ns2:Height>
+      <!-- extensibility element(s) -->
+
+     </ns2:Resolution>
+     <ns2:Quality>0.0</ns2:Quality>
+     <ns2:RateControl>
+      <ns2:FrameRateLimit>0</ns2:FrameRateLimit>
+      <ns2:EncodingInterval>0</ns2:EncodingInterval>
+      <ns2:BitrateLimit>0</ns2:BitrateLimit>
+      <!-- extensibility element(s) -->
+
+     </ns2:RateControl>
+     <ns2:MPEG4>
+      <ns2:GovLength>0</ns2:GovLength>
+      <ns2:Mpeg4Profile>SP</ns2:Mpeg4Profile>
+      <!-- extensibility element(s) -->
+
+     </ns2:MPEG4>
+     <ns2:H264>
+      <ns2:GovLength>0</ns2:GovLength>
+      <ns2:H264Profile>Baseline</ns2:H264Profile>
+      <!-- extensibility element(s) -->
+
+     </ns2:H264>
+     <ns2:Multicast>
+      <ns2:Address>
+       <ns2:Type>IPv4</ns2:Type>
+       <ns2:IPv4Address></ns2:IPv4Address>
+       <ns2:IPv6Address></ns2:IPv6Address>
+       <!-- extensibility element(s) -->
+
+      </ns2:Address>
+      <ns2:Port>0</ns2:Port>
+      <ns2:TTL>0</ns2:TTL>
+      <ns2:AutoStart>false</ns2:AutoStart>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Multicast>
+     <ns2:SessionTimeout></ns2:SessionTimeout>
+
+
+    </ns2:VideoEncoderConfiguration>
+    <ns2:AudioEncoderConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:Encoding>G711</ns2:Encoding>
+     <ns2:Bitrate>0</ns2:Bitrate>
+     <ns2:SampleRate>0</ns2:SampleRate>
+     <ns2:Multicast>
+      <ns2:Address>
+       <ns2:Type>IPv4</ns2:Type>
+       <ns2:IPv4Address></ns2:IPv4Address>
+       <ns2:IPv6Address></ns2:IPv6Address>
+       <!-- extensibility element(s) -->
+
+      </ns2:Address>
+      <ns2:Port>0</ns2:Port>
+      <ns2:TTL>0</ns2:TTL>
+      <ns2:AutoStart>false</ns2:AutoStart>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Multicast>
+     <ns2:SessionTimeout></ns2:SessionTimeout>
+
+
+    </ns2:AudioEncoderConfiguration>
+    <ns2:VideoAnalyticsConfiguration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:AnalyticsEngineConfiguration>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:AnalyticsEngineConfiguration>
+     <ns2:RuleEngineConfiguration>
+      <ns2:Rule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:Rule>
+      <ns2:Rule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:Rule>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:RuleEngineConfiguration>
+
+
+    </ns2:VideoAnalyticsConfiguration>
+    <ns2:PTZConfiguration token="" MoveRamp="0" PresetRamp="0" PresetTourRamp="0">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:NodeToken></ns2:NodeToken>
+     <ns2:DefaultAbsolutePantTiltPositionSpace></ns2:DefaultAbsolutePantTiltPositionSpace>
+     <ns2:DefaultAbsoluteZoomPositionSpace></ns2:DefaultAbsoluteZoomPositionSpace>
+     <ns2:DefaultRelativePanTiltTranslationSpace></ns2:DefaultRelativePanTiltTranslationSpace>
+     <ns2:DefaultRelativeZoomTranslationSpace></ns2:DefaultRelativeZoomTranslationSpace>
+     <ns2:DefaultContinuousPanTiltVelocitySpace></ns2:DefaultContinuousPanTiltVelocitySpace>
+     <ns2:DefaultContinuousZoomVelocitySpace></ns2:DefaultContinuousZoomVelocitySpace>
+     <ns2:DefaultPTZSpeed>
+      <ns2:PanTilt x="0.0" y="0.0" space=""></ns2:PanTilt>
+      <ns2:Zoom x="0.0" space=""></ns2:Zoom>
+      <!-- extensibility element(s) -->
+
+     </ns2:DefaultPTZSpeed>
+     <ns2:DefaultPTZTimeout></ns2:DefaultPTZTimeout>
+     <ns2:PanTiltLimits>
+      <ns2:Range>
+       <ns2:URI></ns2:URI>
+       <ns2:XRange>
+        <ns2:Min>0.0</ns2:Min>
+        <ns2:Max>0.0</ns2:Max>
+        <!-- extensibility element(s) -->
+
+       </ns2:XRange>
+       <ns2:YRange>
+        <ns2:Min>0.0</ns2:Min>
+        <ns2:Max>0.0</ns2:Max>
+        <!-- extensibility element(s) -->
+
+       </ns2:YRange>
+       <!-- extensibility element(s) -->
+
+      </ns2:Range>
+      <!-- extensibility element(s) -->
+
+     </ns2:PanTiltLimits>
+     <ns2:ZoomLimits>
+      <ns2:Range>
+       <ns2:URI></ns2:URI>
+       <ns2:XRange>
+        <ns2:Min>0.0</ns2:Min>
+        <ns2:Max>0.0</ns2:Max>
+        <!-- extensibility element(s) -->
+
+       </ns2:XRange>
+       <!-- extensibility element(s) -->
+
+      </ns2:Range>
+      <!-- extensibility element(s) -->
+
+     </ns2:ZoomLimits>
+     <ns2:Extension>
+
+
+      <ns2:PTControlDirection>
+       <ns2:EFlip>
+        <ns2:Mode>OFF</ns2:Mode>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:EFlip>
+       <ns2:Reverse>
+        <ns2:Mode>OFF</ns2:Mode>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Reverse>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:PTControlDirection>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+    </ns2:PTZConfiguration>
+    <ns2:MetadataConfiguration token="" CompressionType="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:PTZStatus>
+      <ns2:Status>false</ns2:Status>
+      <ns2:Position>false</ns2:Position>
+      <!-- extensibility element(s) -->
+
+     </ns2:PTZStatus>
+     <ns2:Events>
+      <ns2:Filter>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Filter>
+      <ns2:SubscriptionPolicy>
+
+
+      </ns2:SubscriptionPolicy>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Events>
+     <ns2:Analytics>false</ns2:Analytics>
+     <ns2:Multicast>
+      <ns2:Address>
+       <ns2:Type>IPv4</ns2:Type>
+       <ns2:IPv4Address></ns2:IPv4Address>
+       <ns2:IPv6Address></ns2:IPv6Address>
+       <!-- extensibility element(s) -->
+
+      </ns2:Address>
+      <ns2:Port>0</ns2:Port>
+      <ns2:TTL>0</ns2:TTL>
+      <ns2:AutoStart>false</ns2:AutoStart>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Multicast>
+     <ns2:SessionTimeout></ns2:SessionTimeout>
+
+
+     <ns2:AnalyticsEngineConfiguration>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:AnalyticsModule Name="" Type="">
+       <ns2:Parameters>
+        <ns2:SimpleItem>
+        </ns2:SimpleItem>
+        <ns2:ElementItem>
+         <!-- extensibility element(s) -->
+
+        </ns2:ElementItem>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Parameters>
+       <!-- extensibility element(s) -->
+
+      </ns2:AnalyticsModule>
+      <ns2:Extension>
+
+
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:AnalyticsEngineConfiguration>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+    </ns2:MetadataConfiguration>
+    <ns2:Extension>
+
+
+     <ns2:AudioOutputConfiguration token="">
+      <ns2:Name></ns2:Name>
+      <ns2:UseCount>0</ns2:UseCount>
+      <ns2:OutputToken></ns2:OutputToken>
+      <ns2:SendPrimacy></ns2:SendPrimacy>
+      <ns2:OutputLevel>0</ns2:OutputLevel>
+
+
+     </ns2:AudioOutputConfiguration>
+     <ns2:AudioDecoderConfiguration token="">
+      <ns2:Name></ns2:Name>
+      <ns2:UseCount>0</ns2:UseCount>
+
+
+     </ns2:AudioDecoderConfiguration>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+     <!-- extensibility element(s) -->
+
+    </ns2:Extension>
+    <!-- extensibility element(s) -->
+
+   </ns1:Profiles>
+  </ns1:GetProfilesResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

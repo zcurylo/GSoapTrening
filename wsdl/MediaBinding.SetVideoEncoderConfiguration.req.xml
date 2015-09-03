@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+  xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns7="http://www.w3.org/2005/08/addressing"
+  xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
+  xmlns:ns4="http://www.w3.org/2004/08/xop/include"
+  xmlns:ns2="http://www.onvif.org/ver10/schema"
+  xmlns:ns5="http://docs.oasis-open.org/wsrf/bf-2"
+  xmlns:ns3="http://docs.oasis-open.org/wsn/b-2"
+  xmlns:ns6="http://docs.oasis-open.org/wsn/t-1"
+  xmlns:ns1="http://www.onvif.org/ver10/media/wsdl">
+ <SOAP-ENV:Body>
+   <ns1:SetVideoEncoderConfiguration>
+    <ns1:Configuration token="">
+     <ns2:Name></ns2:Name>
+     <ns2:UseCount>0</ns2:UseCount>
+     <ns2:Encoding>JPEG</ns2:Encoding>
+     <ns2:Resolution>
+      <ns2:Width>0</ns2:Width>
+      <ns2:Height>0</ns2:Height>
+      <!-- extensibility element(s) -->
+
+     </ns2:Resolution>
+     <ns2:Quality>0.0</ns2:Quality>
+     <ns2:RateControl>
+      <ns2:FrameRateLimit>0</ns2:FrameRateLimit>
+      <ns2:EncodingInterval>0</ns2:EncodingInterval>
+      <ns2:BitrateLimit>0</ns2:BitrateLimit>
+      <!-- extensibility element(s) -->
+
+     </ns2:RateControl>
+     <ns2:MPEG4>
+      <ns2:GovLength>0</ns2:GovLength>
+      <ns2:Mpeg4Profile>SP</ns2:Mpeg4Profile>
+      <!-- extensibility element(s) -->
+
+     </ns2:MPEG4>
+     <ns2:H264>
+      <ns2:GovLength>0</ns2:GovLength>
+      <ns2:H264Profile>Baseline</ns2:H264Profile>
+      <!-- extensibility element(s) -->
+
+     </ns2:H264>
+     <ns2:Multicast>
+      <ns2:Address>
+       <ns2:Type>IPv4</ns2:Type>
+       <ns2:IPv4Address></ns2:IPv4Address>
+       <ns2:IPv6Address></ns2:IPv6Address>
+       <!-- extensibility element(s) -->
+
+      </ns2:Address>
+      <ns2:Port>0</ns2:Port>
+      <ns2:TTL>0</ns2:TTL>
+      <ns2:AutoStart>false</ns2:AutoStart>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Multicast>
+     <ns2:SessionTimeout></ns2:SessionTimeout>
+
+
+    </ns1:Configuration>
+    <ns1:ForcePersistence>false</ns1:ForcePersistence>
+   </ns1:SetVideoEncoderConfiguration>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

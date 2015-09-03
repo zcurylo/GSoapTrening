@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+  xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns7="http://www.w3.org/2005/08/addressing"
+  xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
+  xmlns:ns4="http://www.w3.org/2004/08/xop/include"
+  xmlns:ns2="http://www.onvif.org/ver10/schema"
+  xmlns:ns5="http://docs.oasis-open.org/wsrf/bf-2"
+  xmlns:ns3="http://docs.oasis-open.org/wsn/b-2"
+  xmlns:ns6="http://docs.oasis-open.org/wsn/t-1"
+  xmlns:ns1="http://www.onvif.org/ver10/media/wsdl">
+ <SOAP-ENV:Body>
+  <ns1:GetVideoSourcesResponse>
+   <ns1:VideoSources token="">
+    <ns2:Framerate>0.0</ns2:Framerate>
+    <ns2:Resolution>
+     <ns2:Width>0</ns2:Width>
+     <ns2:Height>0</ns2:Height>
+     <!-- extensibility element(s) -->
+
+    </ns2:Resolution>
+    <ns2:Imaging>
+     <ns2:BacklightCompensation>
+      <ns2:Mode>OFF</ns2:Mode>
+      <ns2:Level>0.0</ns2:Level>
+      <!-- extensibility element(s) -->
+
+     </ns2:BacklightCompensation>
+     <ns2:Brightness>0.0</ns2:Brightness>
+     <ns2:ColorSaturation>0.0</ns2:ColorSaturation>
+     <ns2:Contrast>0.0</ns2:Contrast>
+     <ns2:Exposure>
+      <ns2:Mode>AUTO</ns2:Mode>
+      <ns2:Priority>LowNoise</ns2:Priority>
+      <ns2:Window bottom="0.0" top="0.0" right="0.0" left="0.0"></ns2:Window>
+      <ns2:MinExposureTime>0.0</ns2:MinExposureTime>
+      <ns2:MaxExposureTime>0.0</ns2:MaxExposureTime>
+      <ns2:MinGain>0.0</ns2:MinGain>
+      <ns2:MaxGain>0.0</ns2:MaxGain>
+      <ns2:MinIris>0.0</ns2:MinIris>
+      <ns2:MaxIris>0.0</ns2:MaxIris>
+      <ns2:ExposureTime>0.0</ns2:ExposureTime>
+      <ns2:Gain>0.0</ns2:Gain>
+      <ns2:Iris>0.0</ns2:Iris>
+      <!-- extensibility element(s) -->
+
+     </ns2:Exposure>
+     <ns2:Focus>
+      <ns2:AutoFocusMode>AUTO</ns2:AutoFocusMode>
+      <ns2:DefaultSpeed>0.0</ns2:DefaultSpeed>
+      <ns2:NearLimit>0.0</ns2:NearLimit>
+      <ns2:FarLimit>0.0</ns2:FarLimit>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Focus>
+     <ns2:IrCutFilter>ON</ns2:IrCutFilter>
+     <ns2:Sharpness>0.0</ns2:Sharpness>
+     <ns2:WideDynamicRange>
+      <ns2:Mode>OFF</ns2:Mode>
+      <ns2:Level>0.0</ns2:Level>
+      <!-- extensibility element(s) -->
+
+     </ns2:WideDynamicRange>
+     <ns2:WhiteBalance>
+      <ns2:Mode>AUTO</ns2:Mode>
+      <ns2:CrGain>0.0</ns2:CrGain>
+      <ns2:CbGain>0.0</ns2:CbGain>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:WhiteBalance>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+     <!-- extensibility element(s) -->
+
+    </ns2:Imaging>
+    <ns2:Extension>
+
+
+     <ns2:Imaging>
+      <ns2:BacklightCompensation>
+       <ns2:Mode>OFF</ns2:Mode>
+       <ns2:Level>0.0</ns2:Level>
+       <!-- extensibility element(s) -->
+
+      </ns2:BacklightCompensation>
+      <ns2:Brightness>0.0</ns2:Brightness>
+      <ns2:ColorSaturation>0.0</ns2:ColorSaturation>
+      <ns2:Contrast>0.0</ns2:Contrast>
+      <ns2:Exposure>
+       <ns2:Mode>AUTO</ns2:Mode>
+       <ns2:Priority>LowNoise</ns2:Priority>
+       <ns2:Window bottom="0.0" top="0.0" right="0.0" left="0.0"></ns2:Window>
+       <ns2:MinExposureTime>0.0</ns2:MinExposureTime>
+       <ns2:MaxExposureTime>0.0</ns2:MaxExposureTime>
+       <ns2:MinGain>0.0</ns2:MinGain>
+       <ns2:MaxGain>0.0</ns2:MaxGain>
+       <ns2:MinIris>0.0</ns2:MinIris>
+       <ns2:MaxIris>0.0</ns2:MaxIris>
+       <ns2:ExposureTime>0.0</ns2:ExposureTime>
+       <ns2:Gain>0.0</ns2:Gain>
+       <ns2:Iris>0.0</ns2:Iris>
+       <!-- extensibility element(s) -->
+
+      </ns2:Exposure>
+      <ns2:Focus>
+       <ns2:AutoFocusMode>AUTO</ns2:AutoFocusMode>
+       <ns2:DefaultSpeed>0.0</ns2:DefaultSpeed>
+       <ns2:NearLimit>0.0</ns2:NearLimit>
+       <ns2:FarLimit>0.0</ns2:FarLimit>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:Focus>
+      <ns2:IrCutFilter>ON</ns2:IrCutFilter>
+      <ns2:Sharpness>0.0</ns2:Sharpness>
+      <ns2:WideDynamicRange>
+       <ns2:Mode>OFF</ns2:Mode>
+       <ns2:Level>0.0</ns2:Level>
+       <!-- extensibility element(s) -->
+
+      </ns2:WideDynamicRange>
+      <ns2:WhiteBalance>
+       <ns2:Mode>AUTO</ns2:Mode>
+       <ns2:CrGain>0.0</ns2:CrGain>
+       <ns2:CbGain>0.0</ns2:CbGain>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:WhiteBalance>
+      <ns2:Extension>
+
+
+       <ns2:ImageStabilization>
+        <ns2:Mode>OFF</ns2:Mode>
+        <ns2:Level>0.0</ns2:Level>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:ImageStabilization>
+       <ns2:Extension>
+        <ns2:IrCutFilterAutoAdjustment>
+         <ns2:BoundaryType></ns2:BoundaryType>
+         <ns2:BoundaryOffset>0.0</ns2:BoundaryOffset>
+         <ns2:ResponseTime></ns2:ResponseTime>
+         <ns2:Extension>
+          <!-- extensibility element(s) -->
+
+         </ns2:Extension>
+         <!-- extensibility element(s) -->
+
+        </ns2:IrCutFilterAutoAdjustment>
+        <ns2:IrCutFilterAutoAdjustment>
+         <ns2:BoundaryType></ns2:BoundaryType>
+         <ns2:BoundaryOffset>0.0</ns2:BoundaryOffset>
+         <ns2:ResponseTime></ns2:ResponseTime>
+         <ns2:Extension>
+          <!-- extensibility element(s) -->
+
+         </ns2:Extension>
+         <!-- extensibility element(s) -->
+
+        </ns2:IrCutFilterAutoAdjustment>
+        <ns2:Extension>
+         <ns2:ToneCompensation>
+          <ns2:Mode></ns2:Mode>
+          <!-- extensibility element(s) -->
+
+         </ns2:ToneCompensation>
+         <ns2:Defogging>
+          <ns2:Mode></ns2:Mode>
+          <!-- extensibility element(s) -->
+
+         </ns2:Defogging>
+         <ns2:NoiseReduction>
+          <ns2:Level>0.0</ns2:Level>
+          <!-- extensibility element(s) -->
+
+         </ns2:NoiseReduction>
+         <ns2:Extension>
+          <!-- extensibility element(s) -->
+
+         </ns2:Extension>
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:Imaging>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+     <!-- extensibility element(s) -->
+
+    </ns2:Extension>
+   </ns1:VideoSources>
+   <ns1:VideoSources token="">
+    <ns2:Framerate>0.0</ns2:Framerate>
+    <ns2:Resolution>
+     <ns2:Width>0</ns2:Width>
+     <ns2:Height>0</ns2:Height>
+     <!-- extensibility element(s) -->
+
+    </ns2:Resolution>
+    <ns2:Imaging>
+     <ns2:BacklightCompensation>
+      <ns2:Mode>OFF</ns2:Mode>
+      <ns2:Level>0.0</ns2:Level>
+      <!-- extensibility element(s) -->
+
+     </ns2:BacklightCompensation>
+     <ns2:Brightness>0.0</ns2:Brightness>
+     <ns2:ColorSaturation>0.0</ns2:ColorSaturation>
+     <ns2:Contrast>0.0</ns2:Contrast>
+     <ns2:Exposure>
+      <ns2:Mode>AUTO</ns2:Mode>
+      <ns2:Priority>LowNoise</ns2:Priority>
+      <ns2:Window bottom="0.0" top="0.0" right="0.0" left="0.0"></ns2:Window>
+      <ns2:MinExposureTime>0.0</ns2:MinExposureTime>
+      <ns2:MaxExposureTime>0.0</ns2:MaxExposureTime>
+      <ns2:MinGain>0.0</ns2:MinGain>
+      <ns2:MaxGain>0.0</ns2:MaxGain>
+      <ns2:MinIris>0.0</ns2:MinIris>
+      <ns2:MaxIris>0.0</ns2:MaxIris>
+      <ns2:ExposureTime>0.0</ns2:ExposureTime>
+      <ns2:Gain>0.0</ns2:Gain>
+      <ns2:Iris>0.0</ns2:Iris>
+      <!-- extensibility element(s) -->
+
+     </ns2:Exposure>
+     <ns2:Focus>
+      <ns2:AutoFocusMode>AUTO</ns2:AutoFocusMode>
+      <ns2:DefaultSpeed>0.0</ns2:DefaultSpeed>
+      <ns2:NearLimit>0.0</ns2:NearLimit>
+      <ns2:FarLimit>0.0</ns2:FarLimit>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Focus>
+     <ns2:IrCutFilter>ON</ns2:IrCutFilter>
+     <ns2:Sharpness>0.0</ns2:Sharpness>
+     <ns2:WideDynamicRange>
+      <ns2:Mode>OFF</ns2:Mode>
+      <ns2:Level>0.0</ns2:Level>
+      <!-- extensibility element(s) -->
+
+     </ns2:WideDynamicRange>
+     <ns2:WhiteBalance>
+      <ns2:Mode>AUTO</ns2:Mode>
+      <ns2:CrGain>0.0</ns2:CrGain>
+      <ns2:CbGain>0.0</ns2:CbGain>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:WhiteBalance>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+     <!-- extensibility element(s) -->
+
+    </ns2:Imaging>
+    <ns2:Extension>
+
+
+     <ns2:Imaging>
+      <ns2:BacklightCompensation>
+       <ns2:Mode>OFF</ns2:Mode>
+       <ns2:Level>0.0</ns2:Level>
+       <!-- extensibility element(s) -->
+
+      </ns2:BacklightCompensation>
+      <ns2:Brightness>0.0</ns2:Brightness>
+      <ns2:ColorSaturation>0.0</ns2:ColorSaturation>
+      <ns2:Contrast>0.0</ns2:Contrast>
+      <ns2:Exposure>
+       <ns2:Mode>AUTO</ns2:Mode>
+       <ns2:Priority>LowNoise</ns2:Priority>
+       <ns2:Window bottom="0.0" top="0.0" right="0.0" left="0.0"></ns2:Window>
+       <ns2:MinExposureTime>0.0</ns2:MinExposureTime>
+       <ns2:MaxExposureTime>0.0</ns2:MaxExposureTime>
+       <ns2:MinGain>0.0</ns2:MinGain>
+       <ns2:MaxGain>0.0</ns2:MaxGain>
+       <ns2:MinIris>0.0</ns2:MinIris>
+       <ns2:MaxIris>0.0</ns2:MaxIris>
+       <ns2:ExposureTime>0.0</ns2:ExposureTime>
+       <ns2:Gain>0.0</ns2:Gain>
+       <ns2:Iris>0.0</ns2:Iris>
+       <!-- extensibility element(s) -->
+
+      </ns2:Exposure>
+      <ns2:Focus>
+       <ns2:AutoFocusMode>AUTO</ns2:AutoFocusMode>
+       <ns2:DefaultSpeed>0.0</ns2:DefaultSpeed>
+       <ns2:NearLimit>0.0</ns2:NearLimit>
+       <ns2:FarLimit>0.0</ns2:FarLimit>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:Focus>
+      <ns2:IrCutFilter>ON</ns2:IrCutFilter>
+      <ns2:Sharpness>0.0</ns2:Sharpness>
+      <ns2:WideDynamicRange>
+       <ns2:Mode>OFF</ns2:Mode>
+       <ns2:Level>0.0</ns2:Level>
+       <!-- extensibility element(s) -->
+
+      </ns2:WideDynamicRange>
+      <ns2:WhiteBalance>
+       <ns2:Mode>AUTO</ns2:Mode>
+       <ns2:CrGain>0.0</ns2:CrGain>
+       <ns2:CbGain>0.0</ns2:CbGain>
+       <ns2:Extension>
+
+
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:WhiteBalance>
+      <ns2:Extension>
+
+
+       <ns2:ImageStabilization>
+        <ns2:Mode>OFF</ns2:Mode>
+        <ns2:Level>0.0</ns2:Level>
+        <ns2:Extension>
+
+
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:ImageStabilization>
+       <ns2:Extension>
+        <ns2:IrCutFilterAutoAdjustment>
+         <ns2:BoundaryType></ns2:BoundaryType>
+         <ns2:BoundaryOffset>0.0</ns2:BoundaryOffset>
+         <ns2:ResponseTime></ns2:ResponseTime>
+         <ns2:Extension>
+          <!-- extensibility element(s) -->
+
+         </ns2:Extension>
+         <!-- extensibility element(s) -->
+
+        </ns2:IrCutFilterAutoAdjustment>
+        <ns2:IrCutFilterAutoAdjustment>
+         <ns2:BoundaryType></ns2:BoundaryType>
+         <ns2:BoundaryOffset>0.0</ns2:BoundaryOffset>
+         <ns2:ResponseTime></ns2:ResponseTime>
+         <ns2:Extension>
+          <!-- extensibility element(s) -->
+
+         </ns2:Extension>
+         <!-- extensibility element(s) -->
+
+        </ns2:IrCutFilterAutoAdjustment>
+        <ns2:Extension>
+         <ns2:ToneCompensation>
+          <ns2:Mode></ns2:Mode>
+          <!-- extensibility element(s) -->
+
+         </ns2:ToneCompensation>
+         <ns2:Defogging>
+          <ns2:Mode></ns2:Mode>
+          <!-- extensibility element(s) -->
+
+         </ns2:Defogging>
+         <ns2:NoiseReduction>
+          <ns2:Level>0.0</ns2:Level>
+          <!-- extensibility element(s) -->
+
+         </ns2:NoiseReduction>
+         <ns2:Extension>
+          <!-- extensibility element(s) -->
+
+         </ns2:Extension>
+         <!-- extensibility element(s) -->
+
+        </ns2:Extension>
+        <!-- extensibility element(s) -->
+
+       </ns2:Extension>
+       <!-- extensibility element(s) -->
+
+      </ns2:Extension>
+      <!-- extensibility element(s) -->
+
+     </ns2:Imaging>
+     <ns2:Extension>
+
+
+      <!-- extensibility element(s) -->
+
+     </ns2:Extension>
+     <!-- extensibility element(s) -->
+
+    </ns2:Extension>
+   </ns1:VideoSources>
+  </ns1:GetVideoSourcesResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
