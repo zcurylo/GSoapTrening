@@ -40,6 +40,8 @@ LIBS += -L"C:/Program Files (x86)/GnuWin32/lib" -lssl
 
 unix:!macx: {
 INCLUDEPATH +="/usr/include/x86_64-linux-gnu"
+#INCLUDEPATH +="/usr/include/c++/4.9"
+INCLUDEPATH +="/usr/include/x86_64-linux-gnu/c++/4.9"
 DEPENDPATH +="/usr/include/x86_64-linux-gnu"
 LIBS += -L"/usr/lib/x86_64-linux-gnu" -lssl
 PRE_TARGETDEPS += /usr/lib/x86_64-linux-gnu/libssl.a
